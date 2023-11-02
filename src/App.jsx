@@ -1,5 +1,5 @@
 import { useState } from "react";
-import DashBoard from "./components/dashBoard/DashBoard";
+import Main_Page from "./components/mainPage/Main_Page";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <DashBoard />
+      <Main_Page />
     </>
   );
 }

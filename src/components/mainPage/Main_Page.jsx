@@ -1,6 +1,6 @@
 <style>@import url('https://fonts.cdnfonts.com/css/poppins');</style>;
 
-function DashBoard() {
+function Main_Page() {
   return (
     <>
       <div
@@ -65,8 +65,16 @@ function DashBoard() {
           </div>
         </nav>
       </div>
+      <section className="">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-lg-6 vh-100 bg-danger"></div>
+            <div className="col-lg-6 vh-100 bg-primary"></div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
 
-export default DashBoard;
+export default Main_Page;
