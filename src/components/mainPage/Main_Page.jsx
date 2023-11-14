@@ -7,14 +7,14 @@ function Main_Page() {
         <div className="overlay"></div>
       </section>
         <nav
-          className="navbar navbar-expand-lg navbar-light container"
+          className="navbar navbar-expand-lg navbar-light container align-items-baseline"
           style={{
             width: "100%",
-            height: "80px",
+            height: "800px",
             marginTop: "10px",
             fontFamily: "Poppins, sans-serif",
             paddingLeft: "20px",
-            paddingRight: "20px"
+            paddingRight: "20px",
           }}
         >
           <a className="navbar-brand" href="index.html">
@@ -70,7 +70,7 @@ function Main_Page() {
             </ul>
           </div>
         </nav>
-        
+        <section><div className="row"><div className="col-6"></div><div className="col-6">About</div></div></section>
     </>
   );
 }
