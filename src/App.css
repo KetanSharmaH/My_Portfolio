@@ -28,3 +28,30 @@
 .navbar .navbar-nav .nav-item:hover::after {
   width: 88%;
 }
+
+:root {
+  background-color: white;
+}
+
+.hero-wrap {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 0.1;
+  width: 50%;
+  height: 800px;
+  background: #3e64ff;
+}
+.hero-wrap .text {
+  width: 100%;
+}

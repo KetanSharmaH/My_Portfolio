@@ -3,19 +3,22 @@
 function Main_Page() {
   return (
     <>
-      <div
-        className="container"
-        style={{
-          marginTop: "30px",
-          fontFamily: "Poppins, sans-serif",
-        }}
-      >
+      <section className="hero-wrap" id="home">
+        <div className="overlay"></div>
+      </section>
         <nav
-          className="navbar navbar-expand-lg navbar-light"
-          style={{ width: "100%", height: "80px" }}
+          className="navbar navbar-expand-lg navbar-light container"
+          style={{
+            width: "100%",
+            height: "80px",
+            marginTop: "10px",
+            fontFamily: "Poppins, sans-serif",
+            paddingLeft: "20px",
+            paddingRight: "20px"
+          }}
         >
           <a className="navbar-brand" href="index.html">
-            <h2 className="fw-bold">
+            <h2 className="fw-bold fs-4">
               <span className="bg-primary form-control-color rounded-end-circle text-bg-danger">
                 K
               </span>
@@ -35,7 +38,10 @@ function Main_Page() {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto ms-auto fs-4">
+            <ul
+              className="navbar-nav mr-auto ms-auto"
+              style={{ fontSize: "17px" }}
+            >
               <li className="nav-item me-4 ms-4">
                 <a href="#home-section" className="nav-link">
                   <span>Home</span>
@@ -64,15 +70,7 @@ function Main_Page() {
             </ul>
           </div>
         </nav>
-      </div>
-      <section className="">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-lg-6 vh-100 bg-danger"></div>
-            <div className="col-lg-6 vh-100 bg-primary"></div>
-          </div>
-        </div>
-      </section>
+        
     </>
   );
 }
