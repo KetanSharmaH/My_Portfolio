@@ -1,21 +1,10 @@
 function NavBar() {
   return (
-    <nav
-      className="navbar navbar-expand-lg navbar-light container align-items-baseline d-flex"
-      style={{
-        width: "100%",
-        height: "800px",
-        marginTop: "10px",
-        fontFamily: "Poppins, sans-serif",
-        paddingLeft: "20px",
-        paddingRight: "20px",
-      }}
-    >
+    <nav className="navbar navbar-expand-lg navbar-light container align-items-baseline sticky-top">
       <a
         className="navbar-brand"
         href="index.html"
         style={{
-          position: "sticky",
           top: "10px",
         }}
       >
@@ -41,9 +30,9 @@ function NavBar() {
       <div
         className="collapse navbar-collapse"
         id="navbarSupportedContent"
-        style={{ position: "sticky", top: "10px" }}
+        style={{ top: "10px" }}
       >
-        <ul className="navbar-nav mr-auto ms-auto" style={{ fontSize: "17px" }}>
+        <ul className="navbar-nav nav mr-auto ms-auto" style={{ fontSize: "17px" }}>
           <li className="nav-item me-4 ms-4">
             <a href="#home-section" className="nav-link">
               <span>Home</span>

@@ -1,10 +1,12 @@
 function AboutMe() {
   return (
-    <section className="d-flex">
-      <div className="container" style={{ color: "black" }}>
+    <section>
+      <div className="container" id="about-section" style={{ color: "black" }}>
         <div className="row">
           <div className="col-6"></div>
-          <div className="col-6 mt-4 ps-5 fadeInUp ftco-animated">
+          <div
+            className="col-6 mt-4 ps-5 fadeInUp ftco-animated"
+          >
             <div className="row">
               <div className="col-12">
                 <h1 className="fw-bold">About me</h1>
@@ -38,7 +40,10 @@ function AboutMe() {
             </div>
             <div className="row">
               <div className="col-12">
-                <button className="btn rounded-pill px-3 py-3 btn-primary fw-bold" style={{marginTop: '38px'}}>
+                <button
+                  className="btn rounded-pill px-3 py-3 btn-primary fw-bold"
+                  style={{ marginTop: "38px" }}
+                >
                   DOWNLOAD CV
                 </button>
               </div>
