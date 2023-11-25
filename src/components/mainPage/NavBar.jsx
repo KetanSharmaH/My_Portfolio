@@ -32,7 +32,7 @@ function NavBar() {
         id="navbarSupportedContent"
         style={{ top: "10px" }}
       >
-        <ul className="navbar-nav nav mr-auto ms-auto" style={{ fontSize: "17px" }}>
+        <ul className="navbar-nav nav mr-auto ms-auto card" style={{ fontSize: "17px" }}>
           <li className="nav-item me-4 ms-4">
             <a href="#home-section" className="nav-link">
               <span>Home</span>

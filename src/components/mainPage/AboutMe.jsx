@@ -1,12 +1,14 @@
 function AboutMe() {
   return (
     <section>
-      <div className="container" id="about-section" style={{ color: "black" }}>
+      <div
+        className="container"
+        id="about-section"
+        style={{ color: "black", fontFamily: "Poppins, sans-serif" }}
+      >
         <div className="row">
           <div className="col-6"></div>
-          <div
-            className="col-6 mt-4 ps-5 fadeInUp ftco-animated"
-          >
+          <div className="col-6 mt-4 ps-5 fadeInUp ftco-animated">
             <div className="row">
               <div className="col-12">
                 <h1 className="fw-bold">About me</h1>

@@ -40,6 +40,7 @@
   background-color: white;
   color: black;
   scroll-behavior: smooth;
+  font-family: "Poppins, sans-serif";
 }
 
 .hero-wrap {
@@ -74,9 +75,6 @@
   --bs-btn-active-color: black;
 }
 
-.section {
-  font-family: "Poppins, sans-serif";
-}
 
 @-webkit-keyframes fadeInUp {
   from {
@@ -133,5 +131,5 @@
 
 #sticky-sidebar {
   position: sticky;
-  top: 50%;
+  top: 40%;
 }
