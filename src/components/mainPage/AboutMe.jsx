@@ -8,7 +8,7 @@ function AboutMe() {
       >
         <div className="row">
           <div className="col-6"></div>
-          <div className="col-6 mt-4 ps-5 fadeInUp ftco-animated">
+          <div className="col-6 mt-4 ps-5 fadeInUp ftco-animated ftco-animate">
             <div className="row">
               <div className="col-12">
                 <h1 className="fw-bold">About me</h1>
