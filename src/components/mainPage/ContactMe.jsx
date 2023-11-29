@@ -21,7 +21,7 @@ function ContactMe() {
               </div>
               Address
               <hr />
-              <p>Punjabi Colony, Ulhasnagar-3</p>
+              <address>Punjabi Colony, Ulhasnagar-3</address>
             </div>
           </div>
           <div className="col-md-6 col-lg-4">
