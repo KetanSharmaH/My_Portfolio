@@ -6,9 +6,9 @@ function ContactMe() {
   return (
     <section id="contact-section">
       <hr style={{ marginTop: "180px" }} />
-      <div className="container fs-2 fw-bold ">
+      <div className="container fs-2 mb-5">
         <div className="row">
-          <div className="text-center mt-4">Contact Me</div>
+          <div className="text-center mt-4 fw-bold">Contact Me</div>
         </div>
         <div className="row text-center mt-5 fs-5">
           <div
@@ -19,7 +19,7 @@ function ContactMe() {
               <div>
                 <MapIcon />
               </div>
-              Address
+              <span className="fw-bold">Address</span>
               <hr />
               <address>Punjabi Colony, Ulhasnagar-3</address>
             </div>
@@ -29,7 +29,7 @@ function ContactMe() {
               <div>
                 <PhoneIcon />
               </div>
-              Contact Number
+              <span className="fw-bold">Contact Number</span>
               <hr />
               <p>+91 8237581906</p>
             </div>
@@ -39,7 +39,7 @@ function ContactMe() {
               <div>
                 <EmailIcon />
               </div>
-              Email Address
+              <span className="fw-bold">Email Address</span>
               <hr />
               <p>ketansharma9700@gmail.com</p>
             </div>

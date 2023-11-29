@@ -14,7 +14,7 @@ function Main_Page() {
       ></link>
       <Overlay />
       <NavBar />
-      <div style={{ height: "740px" }}></div>
+      <div style={{ height: "730px" }}></div>
       <AboutMe />
       <Logos />
       <Resume />

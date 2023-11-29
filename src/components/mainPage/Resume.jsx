@@ -82,7 +82,7 @@ function Resume() {
                 </div>
               </div>
               <hr />
-              <div className="container p-0" id="ExperienceTab">
+              <div className="container p-0" id="SkillsTab">
                 <h2 className="fw-bold mb-5" style={{ marginTop: "120px" }}>
                   Skills
                 </h2>

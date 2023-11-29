@@ -1,3 +1,5 @@
+import MyImage from "../../assets/images/My_image.jpeg";
+
 function AboutMe() {
   return (
     <section>
@@ -7,7 +9,14 @@ function AboutMe() {
         style={{ color: "black", fontFamily: "Poppins, sans-serif" }}
       >
         <div className="row">
-          <div className="col-6"></div>
+          <div className="col-1"></div>
+          <div className="col-5 p-0">
+            <img
+              src={MyImage}
+              alt="Image"
+              style={{maxWidth:'100%', maxHeight: "100%"}}
+            />
+          </div>
           <div className="col-6 mt-4 ps-5 fadeInUp ftco-animated ftco-animate">
             <div className="row">
               <div className="col-12">
