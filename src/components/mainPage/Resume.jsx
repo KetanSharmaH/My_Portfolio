@@ -80,6 +80,18 @@ function Resume() {
                 <div className="fw-bold mt-3">
                   <span>Graduate Trainee</span>
                 </div>
+                
+              </div>
+              <div className="ps-5">
+                <hr/>
+                <span className="date fw-bold">2024-present</span>
+                <div className="text">
+                  <h2 className="fw-bold">Yotta Data Services</h2>
+                </div>
+                <div className="fw-bold mt-3">
+                  <span>It-Operations Executive</span>
+                </div>
+                
               </div>
               <hr />
               <div className="container p-0" id="SkillsTab">
